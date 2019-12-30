@@ -1,0 +1,187 @@
+{
+	"pages": [ 
+/*  plane  */
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/plane/activity/activity"
+		},
+		{
+			"path": "pages/plane/photo_page/photo_page",
+			"style": {
+				"navigationBarTitleText": "上传照片"
+			}
+		},
+		{
+			"path": "pages/plane/roleList/roleList",
+			"style": {
+				"navigationBarTitleText": "选择造型"
+			}
+		},
+		{
+			"path": "pages/plane/photoOver/photoOver",
+			"style": {
+				"navigationBarTitleText": "更多惊喜"
+			}
+		},
+/*  plane  */
+/*  user  */
+		{
+			"path": "pages/user/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "问题反馈"
+			}
+		},
+		{
+			"path": "pages/user/myShape/myShape",
+			"style": {
+				"navigationBarTitleText": "我的体型"
+			}
+		},
+		{
+			"path": "pages/user/updataShape/updataShape",
+			"style": {
+				"navigationBarTitleText": "我的体型"
+			}
+		},
+		{
+			"path": "pages/user/user-index/user-index",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		},
+		{
+			"path": "pages/user/user-info/user-info",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/user/business/business",
+			"style": {
+				"navigationBarTitleText": "商家店铺"
+			}
+		},
+		{
+			"path": "pages/user/business/goods-info/goods-info",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+/*  user  */
+/*  video  */
+		{
+			"path": "pages/video/video-hall/video-hall",
+			"style": {
+				"navigationBarTitleText": "视频大厅",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/video/video-replace/video-replace",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"navigationBarBackgroundColor": "#1b191a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/video/video-home/video-home",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/video/video-activity/video-activity",
+			"style": {
+				"navigationBarTitleText": "商家活动"
+			}
+		},
+		{
+			"path": "pages/video/video-play/video-play",
+			"style": {
+				"navigationBarTitleText": "视频播放",
+				"navigationBarBackgroundColor": "#1b191a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+/*  video  */
+/*  common  */
+		{
+			"path": "pages/common/3dView/3dView",
+			"style": {
+				"navigationBarTitleText": "3d",
+				"navigationBarBackgroundColor": "#1b191a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/common/cutFace/cutFace",
+			"style": {
+				"navigationBarTitleText": "图片裁剪"
+			}
+		},
+		{
+			"path": "pages/common/activityApply/activityApply",
+			"style": {
+				"navigationBarTitleText": "活动申请"
+			}
+		},
+		{
+			"path": "pages/common/search/searchActivity/searchActivity",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		}
+/*  common  */
+	],
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		// "navigationBarBackgroundColor": "#fff",
+		"navigationBarBackgroundColor": "#1b191a",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "羽迹",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 100
+	},
+	"tabBar": {
+		"backgroundColor": "#000",
+		"color": "#cecece",
+		"selectedColor": "#fb95ae",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/icon1.png",
+				"selectedIconPath": "static/img/icon1A.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/video/video-hall/video-hall",
+				"iconPath": "static/img/icon2.png",
+				"selectedIconPath": "static/img/icon2A.png",
+				"text": "视频"
+			},
+			{
+				"pagePath": "pages/user/user-index/user-index",
+				// "pagePath": "pages/my/my",
+				"iconPath": "static/img/icon3.png",
+				"selectedIconPath": "static/img/icon3A.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

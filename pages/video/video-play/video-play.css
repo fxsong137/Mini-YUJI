@@ -1,0 +1,138 @@
+.video-replace {
+	height: 100%;
+	background: #1b191a;
+}
+
+.video {
+	width: 750upx;
+	height: 464upx;
+	background: pink;
+	text-align: center;
+	line-height: 464upx;
+}
+#myVideo {
+	width: 100%;
+	height: 100%;
+}
+.replace {
+	padding: 30upx 50upx 0;
+	color: #fff;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.updater {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 28upx;
+	color: #9d9d9d;
+}
+
+.updater-left {
+	display: flex;
+	align-items: center;
+}
+
+.updater-left .icon {
+	width: 70upx;
+	height: 70upx;
+}
+
+.updater-left .icon image {
+	width: 100%;
+	height: 100%;
+}
+
+.updater-left .name {
+	margin-left: 20upx;
+
+}
+
+.video-name {
+	font-size: 38upx;
+	margin-top: 20upx;
+}
+
+.video-tips {
+	font-size: 24upx;
+	margin-top: 20upx;
+	display: flex;
+	color: #ccc;
+}
+
+.video-tips .tip {
+	margin-right: 20upx;
+}
+
+
+.replace-bottom {
+	width: 100%;
+	height: 130upx;
+	background: #262626;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20upx 50upx;
+	box-sizing: border-box;
+}
+
+
+.create {
+	color: #fff;
+	height: 74upx;
+	line-height: 74upx;
+	text-align: center;
+	width: 200upx;
+	border-radius: 100upx;
+	background: #fb95ae;
+	font-size: 32upx;
+	margin: 0;
+}
+
+.swiper {
+	height: 170upx;
+	background: #262626;
+	margin: 0upx 20upx;
+	position: relative;
+	padding: 10upx 0;
+}
+
+.img {
+	width: 280upx;
+	height: 150upx;
+}
+.img image {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+  .tsList{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 16px;
+    white-space: nowrap;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.item{
+  display:inline-block;
+  width:280upx;
+  margin:0 10upx;
+  overflow: hidden;
+}
+.cur{
+  border-color: red;
+}
+
+.img{
+  width: 100%;
+}

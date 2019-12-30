@@ -1,0 +1,19 @@
+
+.search-activity {
+	
+}
+.search .content .searchBtn {
+	background: #000000 !important;
+}
+
+.search {
+	height: 100upx;
+	background: pink;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}
+.care {
+	padding: 110upx 10upx 0;
+	
+}

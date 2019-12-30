@@ -1,0 +1,169 @@
+.conbox{
+  position: relative;
+  width: 100%;
+}
+.photo{
+  width:300upx;
+  height:440upx;
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:390upx;
+  overflow: hidden;
+}
+.become{
+  position: absolute;
+  right:15%;
+  top:974upx;
+  width: 26%;
+}
+.become1{
+  position: absolute;
+right:27%;
+top:1028upx;
+width:19%;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+.txt{
+  font-size: 32upx;
+  color: #000;
+  width: 42%;
+  text-align: right;
+}
+.select{
+  width: 100%;
+  position: relative;
+}
+.selectBtn{
+  line-height: 1.844;
+  background-color: transparent!important;
+  font-size: 30upx;
+  padding-left:0;
+  /* color: #dab63a!important; */
+   color: #fff!important;
+  font-weight: bold;
+}
+.arr{
+  position: absolute;
+  right:8%;
+  top:19upx;
+  width: 8%;
+}
+.define{
+  width: 30%;
+  position: absolute;
+  left:35%;
+   top:1175upx;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   height: 110upx;
+   font-weight: bold;
+}
+button::after{
+  border:none;
+  outline: none;
+}
+button[disabled] {
+    background: transparent !important;
+   border:none;
+  outline: none;
+}
+.logo{
+  position: absolute;
+  top:1210upx;
+  left:42.5%;
+  width:15%;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+      50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+image{
+   animation: fadeIn 1s both;
+}
+.nextShow{
+  width: 30%;
+  position: absolute;
+  left:40%;
+  top:1086upx;
+}
+   /* checkbox .wx-checkbox-input{
+      height: 20upx;
+      width: 20upx;
+      margin-top: -4upx;
+      border-radius: 50%;
+      background: transparent!important;
+      border:1px solid #fff;
+      font-size: 24upx;
+}
+  checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+        background: transparent;
+        color: #fff;
+        border-radius: 50%;
+  }
+  checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+      background: transparent;
+      border: 1px solid #fff;
+  } */
+  /*  重写 radio 样式  */
+/* 未选中的 背景样式 */
+checkbox .wx-checkbox-input{
+   border-radius: 50%;/* 圆角 */
+   width: 25upx;
+   height: 25upx;
+   background: transparent!important;
+   border:1px solid #fff;
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+    background: transparent;
+      border: 1px solid #fff;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 20upx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 20upx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 20upx;
+   text-align: center;
+   font-size:24upx; /* 对勾大小 30upx */
+   color:#FFF; /* 对勾颜色 白色 */
+   background: #fff;
+   /* transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1); */
+}
+.checkbox {
+    display: inline-block;
+    width:40%;
+    margin-left: 10%;
+    /* padding: 10px 0; */
+    font-size: 28upx;
+    position: relative;
+    text-align: center;
+     background: transparent!important;
+      border:1px solid #fff;
+}
+.cut{
+  position: absolute;
+  width: 21%;
+  height: 50upx;
+  line-height: 50upx;
+  font-size: 24upx;
+  border:1px solid #000;
+  top:750upx;
+  right: 5%;
+  text-align: center;
+}
+/* 进度条 */
+.progress{
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99999;
+}

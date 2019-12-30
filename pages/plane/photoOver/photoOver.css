@@ -1,0 +1,153 @@
+.content{
+  width: 100%;
+  position: relative;
+}
+.photoOver{
+  position: absolute;
+  width:80%;
+  /* height:1160upx; */
+  left:10%;
+  top:149upx;
+  overflow: hidden;
+}
+.operate{
+    position: absolute;
+    width: 80%;
+    left:10%;
+    top:1219upx;
+    display: flex;
+}
+.save{
+  /* position: absolute;
+  left:1%;
+  top:84upx; */
+  width: 33%;
+  /* height: 80upx; */
+  background-color: transparent;
+  padding:0;
+  color: transparent;
+  font-weight: bold;
+   font-size: 38upx;
+    text-align: center;
+      margin:0;
+}
+ 
+.save1{
+  /* position: absolute;
+  right:1%;
+ top:86upx; */
+  width: 33%;
+  /* height: 80upx; */
+    padding:0;
+  color: transparent;
+  background-color:transparent;
+  font-weight: bold;
+  font-size: 38upx;
+   text-align: center;
+   margin:0;
+}
+.logo{
+  width:33%;
+    margin:0;
+  /* height:80upx; */
+  background-color:transparent;
+  /* position:absolute;
+  left:40.4%;
+   top:86upx; */
+  padding:0;
+   color: transparent;
+  font-weight: bold;
+  text-align: center;
+   font-size: 38upx;
+}
+.home{
+  color: #d02573;
+  font-size: 38upx;
+  margin-top:20upx;
+  font-weight: bold;
+  text-align: center;
+}
+.nav{
+  font-size: 32upx;
+  color: transparent;
+  text-align: center;
+  position: absolute;
+  left:0;
+  top:136upx;
+  width: 10%;
+  /* height: 167upx; */
+ font-weight: bold;
+ /* background-color: red; */
+
+}
+.nav1{
+  display:block;
+  font-size:32upx;
+  color:transparent;
+  text-align:center;
+  position:absolute;
+  left:0;
+  top:1200upx;
+  width:100%;
+  font-weight:bold;
+  height: 67upx;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+      50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+image{
+   animation: fadeIn 1s both;
+}
+
+/* 分享成功模态框 */
+.modal{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left:0;
+  top:0;
+
+}
+.bg{
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+  position: absolute;
+  left:0;
+  top:0;
+}
+.by{
+  width: 70%;
+  position: absolute;
+  left:15%;
+   top:35vh;
+   text-align: center;
+   font-size: 34upx;
+   font-weight: bold;
+   background-color: #fff;
+   border-radius: 20upx;
+   padding: 30upx 0;
+}
+.ok{
+  width: 26%;
+    margin-left: 36%;
+    border:1px solid #000;
+    border-radius: 20upx;
+    margin-top:49upx;
+    
+}
+/* 进度条 */
+.progress{
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99999;
+}
+
+button:after {
+	border: none;
+}

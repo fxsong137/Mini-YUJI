@@ -1,0 +1,148 @@
+.video-replace {
+	height: 100%;
+}
+
+.video {
+	width: 750upx;
+	height: 464upx;
+	background: pink;
+	text-align: center;
+	line-height: 464upx;
+	position: relative;
+}
+cover-image {
+	position: absolute;
+	top: 10upx;
+	right: 10upx;
+	width: 60upx;
+	height: 60upx;
+	border-radius: 100%;
+}
+.myVideo {
+	width: 100%;
+	height: 100%;
+}
+.replace {
+	background: #1b191a;
+	padding: 30upx 50upx 0;
+	color: #fff;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.updater {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 28upx;
+	color: #9d9d9d;
+}
+
+.updater-left {
+	display: flex;
+	align-items: center;
+}
+
+.updater-left .icon {
+	width: 70upx;
+	height: 70upx;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.updater-left .icon image {
+	width: 100%;
+	height: 100%;
+}
+
+.updater-left .name {
+	margin-left: 20upx;
+
+}
+
+.video-name {
+	font-size: 38upx;
+	margin-top: 20upx;
+}
+
+.video-tips {
+	font-size: 24upx;
+	margin-top: 20upx;
+	display: flex;
+	color: #ccc;
+}
+
+.video-tips .tip {
+	margin-right: 20upx;
+}
+
+.replace-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 220upx;
+	height: 220upx;
+	border-radius: 100%;
+	border: 1px solid #eee;
+}
+
+.replace-btn image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.replace-btn .btn {
+	width: 100upx;
+	height: 100upx;
+	line-height: 100upx;
+	border-radius: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: -10upx;
+	right: -10upx;
+	background: #fb5d5a;
+	font-size: 26upx;
+}
+
+.replace-bottom {
+	width: 100%;
+	height: 130upx;
+	background: #262626;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20upx 100upx;
+	box-sizing: border-box;
+}
+.share {
+	height: 74upx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.share .iconstar:before {
+	font-size: 40upx;
+}
+
+.share .share-text {
+	font-size: 22upx;
+	margin-top: 4upx;
+}
+
+.create {
+	height: 74upx;
+	line-height: 74upx;
+	text-align: center;
+	width: 280upx;
+	border-radius: 100upx;
+	background: #fb95ae;
+	font-size: 32upx;
+}

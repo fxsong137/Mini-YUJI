@@ -1,0 +1,75 @@
+
+.swiper,
+swiper{
+	height: 800upx;
+}
+
+swiper-item {
+	background: #000;
+}
+
+.swiper-item image,
+.swiper-item video {
+	width: 100%;
+	height: 800upx;
+}
+
+.info {
+	margin: 30upx 30upx 0;
+	font-size: 30upx;
+	font-weight: 600;
+}
+
+
+.title,
+.goods-color,
+.goods-size {
+	margin: 20upx 0;
+	
+}
+
+
+.operation {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	height: 120upx;
+	background: #1B191A;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.operation-left {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 60upx;
+}
+.operation-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	font-size: 22upx;
+}
+
+.operation-right {
+	flex: 1;
+}
+
+.operation-btn {
+	background: #FD5D59;
+	border-radius: 34upx;
+	width: 260upx;
+	height: 68upx;
+	line-height: 68upx;
+	color: #fff;
+	text-align: center;
+	font-size: 32upx;
+}
+
+.introduce {
+	padding-bottom: 150upx;
+}

@@ -1,0 +1,61 @@
+.user-info {
+	height: 100%;
+}
+
+.list-item {
+	margin-top: 20upx;
+}
+
+.tui-right {
+	margin-left: auto;
+	margin-right: 34upx;
+	font-size: 28upx;
+	line-height: 1;
+	color: #999;
+}
+
+.user-info .tui-list-cell::after {
+	left: 0 !important;
+}
+
+.user-info .tui-list-cell {
+	padding: 26upx 80upx !important;
+	color: #000 !important;
+}
+
+.user-info .tui-list-cell.tui-cell-arrow::before {
+	right: 80upx !important;
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	padding: 30upx 0;
+}
+
+.user .user-icon {
+	width: 140upx;
+	height: 140upx;
+	border-radius: 100%;
+	overflow: hidden;
+	border: 1upx solid #eee;
+}
+
+.user .user-icon image {
+	width: 100%;
+	height: 100%;
+}
+
+.user .update {
+	font-size: 26upx;
+	color: #333;
+	margin-top: 10upx;
+	padding-left: 10upx;
+}
+
+.tui-list-cell-name {
+	font-weight: 500;
+}

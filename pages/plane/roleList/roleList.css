@@ -1,0 +1,103 @@
+.conbox{
+  position: relative;
+  width: 100%;
+}
+.area1{
+  position: absolute;
+  width: 66%;
+  left:17%;
+  top:159upx;
+}
+.area2{
+ position:absolute;
+width:17%;
+height:126upx;
+right:0%;
+top:154upx;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+      50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+image{
+   animation: fadeIn 1s both;
+}
+ 
+ /* 底部角色列表*/
+ .slide-image{
+    width: 100%;
+   
+  }
+  .slide-image1{
+    width: 94%!important;
+    margin-left:3%!important;
+   
+  }
+  .slide-imageNav{
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top:0;
+  }
+  .leftToggle{
+    width: 6%;
+    height: 100%;
+    /* background-color: rebeccapurple; */ 
+    margin-top:-7upx;
+  }
+    .rightToggle{
+    width: 6%;
+    height: 100%;
+    /* background-color: firebrick; */
+    margin-top:-7upx;
+  }
+  .area3{
+    width:16%;
+    height:100upx;
+    position:absolute;
+    left:43%;
+    top:1036upx;
+    /* background-color:rebeccapurple; */
+  }
+  .sexArea{
+   position:absolute;
+    left:8%;
+    bottom:321upx;
+    width:18%;
+
+  }
+  .tsList{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 16px;
+    white-space: nowrap;
+    position:absolute;
+    bottom:97upx;
+    left:0%;
+}
+.item{
+  display:inline-block;
+  width:14%;
+  margin-left:1%;
+  margin-right: 1%;
+  border:1px solid #706865;
+  border-radius: 22upx;
+  overflow: hidden;
+}
+.cur{
+  border-color: red;
+}
+
+.img{
+  width: 100%;
+}
+/* 进度条 */
+.progress{
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 99999;
+}

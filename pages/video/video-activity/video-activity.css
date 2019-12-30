@@ -1,0 +1,151 @@
+
+.banner  image{
+	width: 100%;
+}
+.content {
+	padding-bottom: 130upx;
+}
+.product-list {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding: 30upx 30upx 0 30upx;
+	background: #fff;
+}
+
+.pro-item {
+	background: #fff;
+	box-sizing: border-box;
+	width: 49%;
+	position: relative;
+	margin-bottom: 2%;
+}
+
+.pro-item::after {
+	content: '';
+	position: absolute;
+	height: 200%;
+	width: 200%;
+	border: 1upx solid #eaeef1;
+	transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	left: 0;
+	top: 0;
+}
+
+.pro-img {
+	width: 100%;
+	display: block;
+}
+
+.pro-bottom {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	height: 90upx;
+	background: rgba(0,0,0,.5);
+	color: #f5f5f5;
+	padding: 15upx 15upx;
+	box-sizing: border-box;
+}
+
+.pro-text {
+	font-size: 28upx;
+}
+.pro-text1 {
+	font-size: 20upx;
+	margin-top: 4upx;
+}
+
+.product-box {
+	padding-top: 80upx;
+}
+
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 130upx;
+	background: #262626;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.watch {
+	height: 74upx;
+	line-height: 74upx;
+	text-align: center;
+	width: 280upx;
+	border-radius: 100upx;
+	background: #fb95ae;
+	font-size: 32upx;
+	color: #fff;
+}
+.making {
+	position: fixed;
+	bottom: 150upx;
+	right: 50upx;
+	width: 60upx;
+	height: 60upx;
+	border-radius: 100%;
+	background: #fb95ae;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 20upx;
+	/* padding-top: 14upx; */
+}
+
+.moving1 {
+	position: fixed;
+	bottom: 150upx;
+	right: 50upx;
+	width: 60upx;
+	height: 60upx;
+	border-radius: 100%;
+	background: rgba(251,149,174,1);
+	animation: moving 2.6s infinite;
+}
+.moving2 {
+	position: fixed;
+	bottom: 150upx;
+	right: 50upx;
+	width: 60upx;
+	height: 60upx;
+	border-radius: 100%;
+	background: rgba(251,149,174,1);
+	animation: moving 2.6s .9s infinite;
+}
+.moving3 {
+	position: fixed;
+	bottom: 150upx;
+	right: 50upx;
+	width: 60upx;
+	height: 60upx;
+	border-radius: 100%;
+	background: rgba(251,149,174,1);
+	animation: moving 2.6s 1.8s infinite;
+}
+
+@keyframes moving{
+
+	0% {
+		background: rgba(251,149,174,1);
+		transform: scale(1);
+	}
+	100% {
+		background: rgba(251,149,174,0);
+		transform: scale(3);
+	}
+}
+

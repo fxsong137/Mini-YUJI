@@ -1,0 +1,201 @@
+
+page{
+  background-color: #e8e8e8;
+}
+.head{
+  width:100%;position: absolute;
+  left:0;
+  top:0;
+}
+.des{
+   text-align: center;
+   color: #fff;
+   font-size: 32upx;
+   margin:10upx;
+}
+.info{
+  width: 98%;
+  margin:0 auto;
+  background-color: transparent;
+  border-radius: 15upx;
+  /* padding:30upx 0; */
+  position: absolute;
+  left: 0;
+  top:400upx;
+}
+.question{
+  font-size: 28upx;
+  color: #fff;
+  width:91%;
+  margin:14upx auto;
+}
+.item1{
+   width:85%;
+   margin:0upx auto;
+
+}
+.name{
+  width:51%;
+}
+.txt{
+   width:80%;
+   margin:0 auto;
+   font-size: 28upx;
+  background-color: transparent;
+  border:none;
+  color: #fec7c0;
+  border-radius: 6upx;
+  padding: 5upx 10%;
+}
+.txt1{
+   width:90%;
+   font-size: 28upx;
+  background-color: transparent;
+  border:none;
+  color: #fec7c0;
+  border-radius: 6upx;
+   padding: 6upx 5%;
+}
+.sex{
+  width: 48%;
+  margin-left: 8%;
+}
+.radio{
+  display: block;
+}
+/*  重写 radio 样式  */
+/* 未选中的 背景样式 */
+radio .wx-radio-input{
+   border-radius: 50%;/* 圆角 */
+   width: 35upx;
+   height: 35upx;
+}
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked{
+   border: none;
+   background: #fff!important;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 35upx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 35upx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 35upx;
+   text-align: center;
+   font-size:28upx; /* 对勾大小 30upx */
+   color:#b9b9b9; /* 对勾颜色 白色 */
+   background: transparent;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+.radio {
+    display: inline-block;
+    width:40%;
+    margin-left: 10%;
+    /* padding: 10px 0; */
+    font-size: 28upx;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+/* 输入手机号码 */
+  .phone{
+    width: 100%;
+    background-color: transparent;
+    height: 100upx;
+    line-height: 100upx;
+    margin-top:19upx;
+    font-size: 32upx;
+    display: flex;
+    position: absolute;
+    left:0;
+    top:960upx;
+  }
+  .phoneTip{
+     height: 100upx;
+    line-height: 100upx;
+    font-size: 34upx;
+    color: #fff;
+    width: 20%;
+    margin-left:5%;
+    text-align: center;
+  }
+  .phoneTxt{
+    height: 100upx;
+    line-height: 100upx;
+    font-size: 30upx;
+    width: 70%;
+  }
+  .phoneTxt1{
+    height: 100upx;
+    line-height: 100upx;
+    font-size: 30upx;
+    width: 40%;
+  }
+  .phoneV{
+    width: 100%;
+     height: 100upx;
+    line-height: 100upx;
+    color: #fff;
+  }
+  .submit{
+    width:50%;
+    font-size: 30upx;
+    border:none;
+    /* margin-bottom: 50upx; */
+    color:transparent;
+    position: absolute;
+    left: 25%;
+    top:1212upx;
+    height: 100upx;
+    background-color: transparent;
+  }
+  .yzm{
+    font-size: 28upx;
+    width: 25%;
+    margin:3% 5%;
+    padding: 0;
+    height: 60%;
+    line-height: 1.255;
+    vertical-align: middle;
+    padding-top: 10upx;
+    background-color: transparent;
+    color:#fff;
+    border-radius: 40upx;
+    border:1px solid #fff;
+  }
+
+button[disabled] {
+  color: #d02573 !important;
+   background: transparent !important;
+  border:1px solid #d02573;
+}
+.info1{
+  position: absolute;
+  left:0;
+  top:395upx;
+  width: 100%;
+}
+
+.info2{
+  position: absolute;
+  left:0;
+  top:530upx;
+  width: 100%;
+}
+.info3{
+  position: absolute;
+  left:0;
+  top:670upx;
+  width: 100%;
+}
+ .info4{
+  position: absolute;
+  left:0;
+  top:810upx;
+  width: 100%;
+}
+ .phone1{
+   top:1076upx;
+ }
+  
